@@ -1,0 +1,39 @@
+*{
+    border: px solid red;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    justify-content:space-around;
+    height: auto;
+}
+
+.epContainer{
+    /* border: 1px solid blue; */
+    width: 400px;
+    height: auto;
+}
+
+.charContainer{
+    /* border: 1px solid blue; */
+    width: 400px;
+    height: auto;
+}
+
+#card{
+    margin-top: 5px;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 10px;  
+}
+
+h4{
+    margin: 10px 0px 10px 0px;
+}
+
+h4:hover{
+    cursor: pointer;
+}
+
+

@@ -1,0 +1,77 @@
+*{
+    border: px solid red;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    padding: 60px;
+    background-color: #e2e2e2;
+}
+header>div{
+    display: inline-block;
+    position:relative;
+    left: 40px;
+}
+.txt1{
+    font-size: 50px;
+}
+.txt2{
+    font-size: 35px;
+    color: gray;
+}
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.leftfields{
+    display: flex;
+    flex-direction: column;
+}
+.box{
+    background-color: #e2e2e2;
+    display: flex;
+    margin-top: 20px;
+    width: 500px;
+    height: 220px;
+    
+}
+.rightfields{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.leftfields,.rightfields{
+    width: 300px;
+    height: 200px;
+    margin: 5px;
+}
+label{
+    padding: 3px;
+}
+input{
+    margin: 5px 0px 5px 0px;
+    height: 25px;
+}
+.send{
+    width: 100px;
+    height: 40px;
+    margin-left: 200px;
+    background-color: #4395ff;
+    color: white;
+    border: 0px;
+    border-radius: 2px;
+}
+.social{
+    margin-top: 10px;
+    border-bottom: 1px solid #6b6b6b;
+}
+.platforms{
+    display: flex;
+    width: 400px;
+    margin-top: 10px;
+    justify-content: space-between;
+    color: #4395ff;
+}
+
+

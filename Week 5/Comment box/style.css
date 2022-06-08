@@ -1,0 +1,47 @@
+*{
+    border: px solid red;
+    font-family: Arial, Helvetica, sans-serif;
+   }
+   
+   .box{
+     display: flex;
+     width:450px;
+     height:250px;
+     border:1px solid black;
+     padding: 10px;
+   }
+   .left-side{
+     display: flex;
+     flex-direction: column;
+     width: 200px;
+     height: auto;
+     justify-content: space-around;
+   }
+   .right-side{
+     display:flex;
+     align-items: center;
+   }
+   .image{
+     width:250px;
+     height: 150px;
+   }
+   textarea{
+     height:60px;
+   }
+   .submitbtn{
+     width: 70px;
+     height: 25px;
+     align-self: flex-end;
+     background-color: green;
+     border-radius: 4px;
+     border:1px solid white
+     
+   }
+
+   .comment-box{
+       border: 1px solid black;
+       border-radius: 15px;
+       width: 400px;
+       height: 250px;
+       
+   }

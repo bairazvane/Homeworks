@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body id="container">
+    <div>
+      This is the first line in red
+      <p>This should be <a href="">cyan when over</a></p>
+    </div>
+    <p>This is a paragraph</p>
+    <a href="" class="orange">Orange</a>
+    <ul>
+      <li>
+        This should be
+        <a href="/en-US/docs/html">blue and <span class="red">green</span> </a>
+      </li>
+    </ul>
+    <style>
+      #container div > p > a:hover {
+        color: pink;
+      }
+    </style>
+  </body>
+</html>

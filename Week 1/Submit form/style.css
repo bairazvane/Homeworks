@@ -1,0 +1,17 @@
+body {
+  background-color: rgb(181, 197, 211);
+}
+legend {
+  font-weight: bold;
+  font-style: italic;
+  color: red;
+}
+fieldset {
+  width: 550px;
+}
+.buttons {
+  background-color: rgb(255, 226, 151);
+}
+.background {
+  background-color: rgb(181, 197, 211);
+}

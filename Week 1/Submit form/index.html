@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <title>Submit form</title>
+  <body>
+    <fieldset class="background">
+      <legend>Personal info</legend>
+      <label for="first_name">First Name</label>
+      <input type="text" id="first_name" />
+
+      <br />
+
+      <label for="last_name">Last Name</label>
+      <input type="text" id="last_name" />
+
+      <br />
+      <br />
+
+      <label for="gender">Gender</label>
+      <select name="gender" id="gender">
+        <option value="1"></option>
+        <option value="2">male</option>
+        <option value="3">female</option>
+        <option value="4">prefer not to say</option>
+      </select>
+
+      <br />
+      <br />
+
+      <label for="email">E-mail</label>
+      <input type="text" name="email" id="email" value="abc@email.com" />
+      <br />
+    </fieldset>
+
+    <br />
+
+    <fieldset class="background">
+      <legend>Course feedback</legend>
+      <label for="c-graduated">Course graduated</label>
+      <select name="c-graduated" id="c-graduated">
+        <option value="1"></option>
+        <option value="2">Web Development(Javascript)</option>
+        <option value="3">Java Development</option>
+        <option value="4">Phyton Development</option>
+      </select>
+
+      <br />
+      <br />
+
+      <label for="stsf-lvl"
+        >Overall, how satisfied were you with the course:</label
+      >
+
+      <br />
+      <br />
+
+      <input type="radio" name="stsf-lvl" id="unsat" value="unsat" />
+      <label for="sunsat">Unsatisfied</label>
+      <input type="radio" name="stsf-lvl" id="lsat" value="lsat" />
+      <label for="lsat">Less satisfied</label>
+      <input type="radio" name="stsf-lvl" id="sat" value="sat" />
+      <label for="sat">Satisfied</label>
+      <input type="radio" name="stsf-lvl" id="msat" value="msat" />
+      <label for="msat">More satisfied</label>
+      <input type="radio" name="stsf-lvl" id="vsat" value="vsat" />
+      <label for="vsat">Very satisfied</label>
+
+      <br />
+
+      <label for="interest">Which part did you find more interesting:</label>
+      <select multiple name="interest" id="interest">
+        <option value="1">HTML</option>
+        <option value="2">CSS</option>
+        <option value="3">Javascript</option>
+      </select>
+
+      <br />
+      <br />
+
+      <label for="improve">Tell us what can we improve in this course:</label>
+      <br />
+      <textarea name="improve" cols="60" rows="5"></textarea>
+
+      <br />
+    </fieldset>
+
+    <br />
+
+    <fieldset class="background">
+      <input type="checkbox" name="terms" id="terms" value="yes" />
+      <label for="terms" target="_blank"
+        >I agree to the
+        <a href="https://scoalainformala.ro">terms&#38;conditions</a></label
+      >
+      <br />
+      <br />
+      <p>
+        <input type="submit" name="input" value="Send Form" class="buttons" />
+        <input type="reset" name="reset" value="Clear Form" class="buttons" />
+      </p>
+    </fieldset>
+  </body>
+</html>

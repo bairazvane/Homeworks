@@ -1,0 +1,16 @@
+div {
+  color: red;
+}
+#container {
+  color: gray;
+}
+span::first-letter {
+  color: orange;
+}
+li > a[href*="en-US"] > .red {
+  color: green;
+}
+#container div > p > a:hover {
+  color: cyan;
+  /* this is rewritten by inline html style code*/
+}

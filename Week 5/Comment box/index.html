@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Submit box</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="submit-form">
+        <div class="box">
+          <div class="left-side">
+            <input
+              type="text"
+              class="first-name"
+              name="first-name"
+              placeholder="First Name"
+            />
+            <input
+              type="text"
+              class="last-name"
+              name="last-name"
+              placeholder="Last Name"
+            />
+            <div class="gender">
+              Gender:
+              <div class="male">
+                <input type="radio" class="radio" />
+                <span>M</span>
+              </div>
+              <div class="female">
+                <input type="radio" class="radio" />
+                <span>F</span>
+              </div>
+            </div>
+            <textarea
+              class="text-area"
+              placeholder="Your text here..."
+            ></textarea>
+            <input type="submit" class="submitbtn" id="btn" name="submitbtn" />
+          </div>
+          <div class="right-side">
+            <img
+              src="https://dt2sdf0db8zob.cloudfront.net/wp-content/uploads/2020/02/form-builders-11-850x435.png"
+              class="image"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="comment-box" id="comment-box">
+        <span>Feedback:</span>
+      </div>
+    </div>
+    <script src="script.js" defer></script>
+  </body>
+</html>
